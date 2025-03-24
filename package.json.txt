@@ -1,5 +1,5 @@
 {
-    "name": "haxball-server",
+    "name": "hbserver",
     "version": "1.0.0",
     "description": "Servidor Headless de HaxBall en Railway",
     "main": "server.js",
