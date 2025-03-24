@@ -1,0 +1,12 @@
+{
+    "name": "haxball-server",
+    "version": "1.0.0",
+    "description": "Servidor Headless de HaxBall en Railway",
+    "main": "server.js",
+    "dependencies": {
+        "haxball-headless": "^1.0.0"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}

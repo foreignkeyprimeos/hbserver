@@ -1,0 +1,9 @@
+const room = HBInit({
+    roomName: "Servidor HaxBall en Railway",
+    maxPlayers: 12,
+    public: true
+});
+
+room.onPlayerJoin = function(player) {
+    room.sendChat(`¡Bienvenido, ${player.name}!`);
+};
